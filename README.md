@@ -129,7 +129,15 @@ plot(housingnet)
 
 **CONCLUSION**
 
-We can see the average correlation with different combinations of hidden nodes and hidden layers
+We can see the average correlation with different combinations of hidden nodes and hidden layers .
+
+The following factors are most important in helping to predict house prices :
+1.BsmtFin
+2.Living Area
+3.Garage Area
+4.Total Basement SF
+5.1st Floor SF
+
 
 
 
