@@ -128,7 +128,7 @@ plot(housingnet)
 
 **CONCLUSION**
 
-We can see the average correlation with different combinations of hidden nodes and hidden layers .
+Adding more hidden layers and hidden nodes doesn't always increase the accuracy of the Neural Network .
 
 The following factors are most important in helping to predict house prices :
 1.BsmtFin
