@@ -68,8 +68,7 @@ trainingnorm <- as.data.frame(lapply(housing_train,normalize))
 
 testingnorm <- as.data.frame(lapply(housing_test,normalize))
 
-housingnet <- neuralnet(SalePrice ~PoolArea+BsmtHalfBath+ WoodDeckSF+ LotArea+ OverallCond+ Kitchen+ LotFrontage+ Fireplaces+ BsmtFullBath+ HalfBath+ Bedroom+ BsmtFin+ FullBath+ OverallQual+ YearBuilt+ TotalBsmtSF+ TotRmsAbvGrd+ GarageArea+ GarageCars
-, trainingnorm, lifesign="minimal", linear.output=TRUE, threshold=0.01)
+housingnet <- neuralnet(SalePrice ~PoolArea+BsmtHalfBath+ WoodDeckSF+ LotArea+ OverallCond+ Kitchen+ LotFrontage+ Fireplaces+ BsmtFullBath+ HalfBath+ Bedroom+ BsmtFin+ FullBath+ OverallQual+ YearBuilt+ TotalBsmtSF+ TotRmsAbvGrd+ GarageArea+ GarageCars, trainingnorm, lifesign="minimal", linear.output=TRUE, threshold=0.01)
 
 plot(housingnet)
 
